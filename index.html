@@ -14,40 +14,47 @@
       */
 
       .jumbotron {
-        background-color:#15569c;
-        background-image: linear-gradient(135deg, rgba(22, 24, 29, 0.52), #15569c, #428bc8);
+        background-color:#4e8ad1;
         border-radius:0;
         color:white;
+        padding:200px 0;
         text-transform:uppercase;
       }
       .jumbotron-header {
+        display:none;
         font-size:3rem;
         font-weight:bold;
       }
+      .navbar {
+        display:none;
+      }
       .jumbotron img {
-        width:20%;
-        max-width:80%;
         margin-bottom:2rem;
       }
       .jumbotron .lead {
-        display:inline-block;
+        display:none;
       }
 
       .handimap-feature {
-        padding-top:6rem;
-        padding-bottom:6rem;
+        padding-top:8rem;
+        padding-bottom:22rem;
       }
       .handimap-feature-title {
-        text-align:center;
       }
       .handimap-feature .lead {
-        margin:0 auto;
-        text-align:center;
+        margin:0;
       }
       @media (min-width: 768px) {
         .handimap-feature .lead {
           max-width:80%;
+          max-width:500px;
         }
+      }
+      .footer {
+        padding:100px;
+        background:#00161f;
+        color:white;
+        text-align:center;
       }
 
     </style>
@@ -65,16 +72,16 @@
           <div class="collapse navbar-toggleable-xs" id="bd-main-nav">
             <ul class="nav navbar-nav">
               <li class="nav-item active">
-                <a class="nav-item nav-link active" href="/">Handimaps</a>
+                <a class="nav-item nav-link active" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-item nav-link " href="#" >Documentation</a>
+                <a class="nav-item nav-link " href="#" >Our Team</a>
               </li>
               <li class="nav-item">
                 <a class="nav-item nav-link" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-item nav-link" href="#">Blog</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -84,7 +91,7 @@
     <main class="bd-masthead"> 
       <section class="jumbotron text-xs-center">
         <div class="container">
-          <img src="./img/handicap.png">
+          <img src="./img/logo-handimaps.png">
           <h1 class="jumbotron-header">Handimaps</h1>
           <p class="lead">Providing Access For All</p>
         </div>
@@ -92,9 +99,13 @@
     </main>
     <div class="handimap-feature">
       <div class="container">
-        <h2 class="handimap-feature-title">Easy to get around.</h2>
-        <p class="lead">Quickly get where you need to. Find handicap accessable bathrooms or how to get to the 4th floor of the library in a wheelchair. We'll get you there.</p>
+        <h2 class="handimap-feature-title">Quickly find what you need.</h2>
+        <p class="lead">We'll show you the nearest ramp to the nearest telephone, ramp, or elevator.</p>
       </div>
+    </div>
+    <div class="footer">
+      <h2 class="handimap-feature-title">Thanks for your interest!</h2>
+      <p class="lead">Follow us on Twitter and Facebook</p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
