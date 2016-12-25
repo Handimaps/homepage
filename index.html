@@ -5,59 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-
-      /*
-        BLUE
-        #428bc8
-        #15569c
-      */
-
-      .jumbotron {
-        background-color:#4e8ad1;
-        border-radius:0;
-        color:white;
-        padding:200px 0;
-        text-transform:uppercase;
-      }
-      .jumbotron-header {
-        display:none;
-        font-size:3rem;
-        font-weight:bold;
-      }
-      .navbar {
-        display:none;
-      }
-      .jumbotron img {
-        margin-bottom:2rem;
-      }
-      .jumbotron .lead {
-        display:none;
-      }
-
-      .handimap-feature {
-        padding-top:8rem;
-        padding-bottom:22rem;
-      }
-      .handimap-feature-title {
-      }
-      .handimap-feature .lead {
-        margin:0;
-      }
-      @media (min-width: 768px) {
-        .handimap-feature .lead {
-          max-width:80%;
-          max-width:500px;
-        }
-      }
-      .footer {
-        padding:100px;
-        background:#00161f;
-        color:white;
-        text-align:center;
-      }
-
-    </style>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="navbar navbar-light navbar-static-top handimaps-navbar">
@@ -94,18 +42,36 @@
           <img src="./img/logo-handimaps.png">
           <h1 class="jumbotron-header">Handimaps</h1>
           <p class="lead">Providing Access For All</p>
+          <div class="cf"></div>
+          <a href="#" class="btn btn-secondary btn-lg">Download the App</a>
         </div>
       </section>
     </main>
     <div class="handimap-feature">
       <div class="container">
+        <img class="screenshot" src="img/phone.png">
         <h2 class="handimap-feature-title">Quickly find what you need.</h2>
         <p class="lead">We'll show you the nearest ramp to the nearest telephone, ramp, or elevator.</p>
       </div>
     </div>
+    <div class="handimap-feature" id="contact-form">
+      <img src="img/screenshot2.png" class="screenshot2">
+      <div class="container">
+        <h2 class="handimap-feature-title">We'll let you know when it's ready</h2>
+        <p class="lead">Our application is currently in private beta but we'll be opening up to the public soon.</p> 
+        <div class="clearfix"></div>
+        <form class="form-inline">
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" placeholder="email" class="form-control"/>
+            <button type="submit" class="btn btn-secondary">Stay in touch.</button>
+          </div>
+        </form>
+      </div>
+    </div>
     <div class="footer">
       <h2 class="handimap-feature-title">Thanks for your interest!</h2>
-      <p class="lead">Follow us on Twitter and Facebook</p>
+      <p class="lead">Follow us on <a href="https://twitter.com/handimaps_" target="_blank">Twitter</a> and <a href="https://www.facebook.com/handimaps/" target="_blank">Facebook</a></p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
