@@ -9,7 +9,8 @@
   border-radius:0;
   color:white;
   padding: 100px 0 250px;
-  text-transform:uppercase;
+  /* text-transform:uppercase; */
+  color: #488acb;
 }
 .jumbotron-header {
   display:none;
